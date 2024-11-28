@@ -1,5 +1,5 @@
 import streamlit as st
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 
 st.set_page_config(
     layout="wide",  # Define o layout da página como "wide" (amplo).
