@@ -30,23 +30,23 @@ O projeto "Teams Dashboard" é uma aplicação web interativa desenvolvida com S
 Para executar este projeto, você precisará ter o Python e as bibliotecas necessárias instaladas. Siga os passos abaixo:
 
 1. Clone o repositório:
-   ```bash
+```bash
    git clone https://github.com/ricardochomicz/streamlit_fifa.git
    cd seu_repositorio
-   ```
-
+```
+2. Crie um ambiente virtual:
 ```bash
 python -m venv venv
 source venv/bin/activate  # Para Linux/Mac
 venv\Scripts\activate  # Para Windows
 ```
 
-2. Instale as dependências:
+3. Instale as dependências:
 ```bash
 pip install streamlit pandas
 ```
 
-3. Execute o aplicativo:
+4. Execute o aplicativo:
 ```bash
 python -m streamlit run 1_home.py
 ```
