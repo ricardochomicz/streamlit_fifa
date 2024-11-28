@@ -50,3 +50,6 @@ pip install streamlit pandas
 ```bash
 python -m streamlit run 1_home.py
 ```
+
+## Acesse o APP
+https://appfifa-micz.streamlit.app/
