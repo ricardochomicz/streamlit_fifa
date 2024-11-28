@@ -40,6 +40,7 @@ A marcação de defesa de campo foi renomeada para defesa de reconhecimento de m
 Fonte e Licença: https://sports-statistics.com/sports-data/
 """)
 
-btn = st.button("Acesse os dados no Kaggle")
-if btn:
-    webbrowser.open("https://www.kaggle.com/datasets/joebeachcapital/fifa-players")
+btn = st.link_button(
+    "Acesse os dados no Kaggle",
+    "https://www.kaggle.com/datasets/joebeachcapital/fifa-players"
+)
