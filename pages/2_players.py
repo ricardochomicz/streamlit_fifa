@@ -25,11 +25,11 @@ st.title(players_stats["Name"])
 st.markdown(f"**Clube:** {players_stats['Club']}")
 
 # Limpar a posição usando BeautifulSoup
-position_html = players_stats['Position']
-soup = BeautifulSoup(position_html, "html.parser")
-position_text = soup.get_text()
+# position_html = players_stats['Position']
+# soup = BeautifulSoup(position_html, "html.parser")
+# position_text = soup.get_text()
 
-st.markdown(f"**Posição:** {position_text}")
+st.markdown(f"**Posição:** {players_stats['Position']}")
 
 col1, col2, col3, col4 =st.columns(4)
 col1.markdown(f"**Idade:** {players_stats['Age']}")
